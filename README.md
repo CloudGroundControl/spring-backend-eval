@@ -14,3 +14,11 @@ You can access Flightradar24 live data using the following endpoint: `https://da
 
 - Java and Spring Framework
 - The output of the websocket stream should be in `JSON`. Bonus if using `Protobuf`
+- Docker
+
+## Deliverable
+
+To be successful in this exercise, your submission should:
+- be of the form a github repository
+- include a Dockerfile 
+- deployed on AWS???
