@@ -20,4 +20,4 @@ You can access Flightradar24 live data using the following endpoint: `https://da
 
 To be successful in this exercise, your submission should:
 - be a github repository
-- explain how to run your service as a docker container
+- describe how to run your service as a docker container
