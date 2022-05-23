@@ -12,7 +12,7 @@ You can access Flightradar24 live data using the following endpoint: `https://da
 
 ## Technology to use
 
-- Java and Spring Framework
+- Use Java + SpringBoot
 - The output of the websocket stream should be in `JSON`
 - Docker
 
