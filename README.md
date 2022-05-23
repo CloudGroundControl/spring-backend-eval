@@ -19,5 +19,6 @@ You can access Flightradar24 live data using the following endpoint: `https://da
 ## Deliverable
 
 To be successful in this exercise, your submission should:
-- be a github repository
-- describe how to run your service as a docker container
+- be a github repository,
+- be a SpringBoot application using Java,
+- describe how to run your application as a docker container
