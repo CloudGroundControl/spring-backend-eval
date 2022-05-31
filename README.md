@@ -12,7 +12,11 @@ As an operator of Cloud Ground Control, I would like to have access to live flyi
 
 Your task is to create a websocket service a client could reach providing a `position` (coordinates) and a `radius` (in meters) to get access to a 1Hz stream of flying planes details and position in the area defined by the position and radius. The websocket connection should only stream new information.
 
-You can access Flightradar24 live data using the following endpoint: `https://data-live.flightradar24.com/zones/fcgi/feed.js?bounds=...`. See FlightRadar24 API documentation for further details (provided separately).
+You can access Flightradar24 live data using the following endpoint: [https://data-live.flightradar24.com/zones/fcgi/feed.js](https://data-live.flightradar24.com/zones/fcgi/feed.js). The endpoint provides a `bounds` query parameter which accept `min_lat, max_lat, min_long, max_long`. This is an example for Sydney: [https://data-cloud.flightradar24.com/zones/fcgi/feed.js?bounds=-33.772,-34.051,150.888,151.546](https://data-cloud.flightradar24.com/zones/fcgi/feed.js?bounds=-33.772,-34.051,150.888,151.546)
+
+
+
+See FlightRadar24 API documentation for further details about response payload. (provided separately).
 
 ## Deliverable
 
