@@ -10,17 +10,12 @@ As a user, I would like to subscribe to a WebSocket topic using a `position` (co
 
 You can access Flightradar24 live data using the following endpoint: `https://data-live.flightradar24.com/zones/fcgi/feed.js?bounds=...`. See FlightRadar24 API documentation for further details (provided separately).
 
-## Technology to use
-
-- Use Java + SpringBoot
-- The output of the websocket stream should be in `JSON`
-- Docker
-
 ## Deliverable
 
 To be successful in this exercise, your submission should:
 - be a github repository,
 - be a SpringBoot application using Java,
+- output flying planes in my area as `JSON` from a websocket stream
 - describe how to run your application as a docker container
 
 We will be testing your application using [Postman WebSocket Requests feature](https://learning.postman.com/docs/sending-requests/supported-api-frameworks/websocket/)
