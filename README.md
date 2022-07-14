@@ -27,3 +27,7 @@ To be successful in this exercise, your submission should:
 - describe how to run your application as a docker container
 
 We will be testing your application using [Postman WebSocket Requests feature](https://learning.postman.com/docs/sending-requests/supported-api-frameworks/websocket/)
+
+## Notes
+- Thes `radius` should be used to calculate the bounding box,
+- For the sake of this excercice, we will assume that aircraft inside the bounding box are inside the `radius`.
