@@ -29,5 +29,5 @@ To be successful in this exercise, your submission should:
 We will be testing your application using [Postman WebSocket Requests feature](https://learning.postman.com/docs/sending-requests/supported-api-frameworks/websocket/)
 
 ## Notes
-- Thes `radius` should be used to calculate the bounding box,
-- For the sake of this excercice, we will assume that aircraft inside the bounding box are inside the `radius`.
+- The `radius` should be used to calculate the bounding box,
+- For the sake of this excercice, we will assume aircrafts inside the bounding box are also inside the `radius`.
